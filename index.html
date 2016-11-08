@@ -309,8 +309,24 @@
                         <div class="modal-body">
                             <h2>Hangman</h2>
                             <hr class="star-primary">
-                            <img src="img/portfolio/cabin.png" class="img-responsive img-centered" alt="">
-                            <p>WIP</p>
+                            <div class="row">
+                                <div class="col-md-6">
+                                    <!-- insert hangman game annimation -->
+                                    <img src="img/hangman/superherohang.png" class="img-responsive" alt="supehang">
+                                </div>
+                                <div class="col-md-6">
+                                <p>Begin with your first guess! Select a key on your keyboard!</p>
+                                    <!-- hangman game info -->
+                                    <div id="resetAlert">
+                                    </div>
+                                    <div id="hangman">
+                                    </div>
+                                    <div id="gameInfo">
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- <img src="img/portfolio/cabin.png" class="img-responsive img-centered" alt=""> -->
+                            <p>Super Hero Theme</p>
                             <ul class="list-inline item-details">
                                 <li>Client:
                                     <strong><a href="#">Start Hangman</a>
@@ -528,6 +544,8 @@
     <script src="js/contact_me.js"></script>
     <!-- Theme JavaScript -->
     <script src="js/backbone.min.js"></script>
+    <!-- hangman Javascript: -->
+    <script src="js/hangmangame.js"></script>
 </body>
 
 </html>
