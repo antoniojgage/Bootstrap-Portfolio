@@ -1,6 +1,6 @@
-.profile-img{
-    width:30%;
-    height:30%;
+.profile-img {
+    width: 30%;
+    height: 30%;
 }
 
 .quotes {
@@ -8,11 +8,16 @@
     max-height: 100%;
 }
 
-.portfolio-img{
-    width:30%;
-    height:30%;
+.portfolio-img {
+    width: 30%;
+    height: 30%;
 }
 
-.center{
-	text-align:center;
+.center {
+    text-align: center;
+}
+
+.supagif {
+/*    max-height: 100%;
+    max-width: 100%;*/
 }
